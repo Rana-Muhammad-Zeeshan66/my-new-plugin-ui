@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "zee-ui-test-plugin-new": {
+      "factory": "./src/generators/zee-ui-test-plugin-new/generator",
+      "schema": "./src/generators/zee-ui-test-plugin-new/schema.json",
+      "description": "zee-ui-test-plugin-new generator"
+    }
+  }
+}

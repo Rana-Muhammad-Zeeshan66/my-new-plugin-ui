@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "ZeeUiTestPluginNew",
+  "title": "",
+  "type": "object",
+  "properties": {
+    "ui": {
+      "type": "string",
+      "description": "",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": {
+        "message": "Which type of UI library would you like to generate?",
+        "type": "list",
+        "items": [
+          {
+            "value": "antd",
+            "label": "Ant design"
+          },
+          {
+            "value": "materialui",
+            "label": "Material Ui"
+          },
+          {
+            "value": "chakraui",
+            "label": "Chakra Ui"
+          }
+        ]
+      }
+    }
+  },
+  "required": []
+}
